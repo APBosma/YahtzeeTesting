@@ -98,6 +98,7 @@ class YahtzeeRoll:
             
         print("Highest possible upper score:", upperHighScore)
         print("Highest possible lower score:", highScore)
+        return upperHighScore, highScore
     
     
     
