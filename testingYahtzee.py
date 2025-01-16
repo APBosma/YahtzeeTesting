@@ -8,6 +8,7 @@ class TestYahtzee(unittest.TestCase):
     #Upper testing
     def testCounts(self):
         roll = [2, 2, 3, 3, 5]
+        upper,lower = self.rolls.score(roll)
         self.assertEqual(self.rolls.score(roll), "Highest possible upper score: 6\nHighest possible lower score: 0")
     '''    
     def testsecondCount(self):
