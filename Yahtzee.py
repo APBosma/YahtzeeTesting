@@ -92,12 +92,10 @@ class YahtzeeRoll:
             yahtzee = 50
             
         highScore = max(aKind, house, straight, yahtzee)
-        
         upperHighScore = max(valueOnes, valueTwos*2, valueThrees*3, valueFours*4, valueFives*5, valueSixes*6)
-                
             
-        print("Highest possible upper score:", upperHighScore)
-        print("Highest possible lower score:", highScore)
+        #print("Highest possible upper score:", upperHighScore)
+        #print("Highest possible lower score:", highScore)
         return upperHighScore, highScore
     
     
